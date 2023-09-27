@@ -35,7 +35,7 @@ Band Protocol allows you to query data from traditional web APIs and use it in t
 
     - **Using the BandChain explorer**
 
-        You can click on the oracle script of your choice, and then from the **Execute** tab you can pass in the parameters and get the response from BandChain. The response will contain the result and also an EVM proof. This proof has to be copied and will be used in the final step. The BandChain docs for querying oracle using explorer is available [**here**](https://docs.bandchain.org/dapp-developers/requesting-data-from-bandchain/requesting-data-via-explorer).
+        You can click on the oracle script of your choice, and then from the **Execute** tab you can pass in the parameters and get the response from BandChain. The response will contain the result and also an EVM proof. This proof has to be copied and will be used in the final step. The BandChain docs for querying oracle using explorer are available [**here**](https://docs.bandchain.org/dapp-developers/requesting-data-from-bandchain/requesting-data-via-explorer).
 
         <img src={useBaseUrl("img/bandchain/executeoracle.png")} />
 
