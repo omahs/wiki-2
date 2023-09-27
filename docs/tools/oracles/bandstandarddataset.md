@@ -2,7 +2,7 @@
 id: bandstandarddataset
 title: Band Standard Dataset
 sidebar_label: Standard Dataset
-description: Band Stardard Dataset offers real-time price information for over 196+ symbols spanning across crypto assets, foreign exchange and commodities
+description: Band Standard Dataset offers real-time price information for over 196+ symbols spanning across crypto assets, foreign exchange and commodities
 keywords:
   - wiki
   - polygon
