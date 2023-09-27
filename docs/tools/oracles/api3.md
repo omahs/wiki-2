@@ -164,7 +164,7 @@ unless it is funded again.
 [Managed dAPIs](https://docs.api3.org/reference/dapis/understand/managed.html) are sourced directly from multiple [first-party](https://docs.api3.org/explore/airnode/why-first-party-oracles.html) data providers
 running an Airnode and aggregated using Airnode's signed data using
 a median function. The gas costs
-and avaibality of Managed dAPIs is managed by the [API3 DAO](https://docs.api3.org/explore/dao-members/).
+and availability of Managed dAPIs are managed by the [API3 DAO](https://docs.api3.org/explore/dao-members/).
 
 [Click here to read more about Managed dAPIs](https://docs.api3.org/reference/dapis/understand/managed.html).
 
@@ -380,7 +380,7 @@ contract RemixQrngExample is RrpRequesterV0 {
 }
 ```
 
-- The `setRequestParameters()` takes in `airnode` (The ANU/Quintessence/Nodary Airnode address) , `endpointIdUint256`, `sponsorWallet` and sets these parameters. You can get Airnode address and the endpoint ID [here](https://docs.api3.org/reference/qrng/providers.html).
+- The `setRequestParameters()` takes in `airnode` (The ANU/Quintessence/Nodary Airnode address), `endpointIdUint256`, `sponsorWallet` and sets these parameters. You can get Airnode address and the endpoint ID [here](https://docs.api3.org/reference/qrng/providers.html).
 
 - The `makeRequestUint256()` function calls the `airnodeRrp.makeFullRequest()` function of the `AirnodeRrpV0.sol` protocol contract which adds the request to its storage and returns a `requestId`.
 
