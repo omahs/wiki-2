@@ -41,7 +41,7 @@ Here are the steps to bridge from rootchain to childchain:
 For bridging from childchain back to rootchain, follow these steps:
 
 1. **Initiate Transaction**: The user sends a transaction on the childchain to the L2StateSender contract.
-2. **Exit Event Emission**: An exit event is emitted andpicked up by validators on L2. The ID of this exit event can be found in the transaction receipt, which will be used in the subsequent steps.
+2. **Exit Event Emission**: An exit event is emitted and picked up by validators on L2. The ID of this exit event can be found in the transaction receipt, which will be used in the subsequent steps.
 3. **Checkpoint Creation**: Validators generate a checkpoint from these exit events and submit it to the CheckpointManager contract on L1. This occurs at the end of every epoch if there are exit events to checkpoint.
 4. **Proof of Exit Generation**: Once the checkpoint containing their exit event is submitted, the user can call the bridge_generateExitProof jsonRPC endpoint on an L2 node using the exit event ID from step 2. This returns a proof of exit for the user and some additional data needed to complete the data bridge back to L1.
 5. **Data Bridging**: The user then sends a transaction to the ExitHelper contract (function exit), using the data returned by the jsonRPC endpoint in the previous step. This action bridges the user's data back to L1.
